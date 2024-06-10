@@ -129,33 +129,33 @@ Tools: Kali Linux, Metasploit, Nmap, Wireshark
 - Example screenshot: Sample Image (Label: Example)
   
 #6. Troubleshooting Scenarios
-Scenario 1: User Unable to Connect to Network
-Steps
-Check NIC Settings:
+## Scenario 1: User Unable to Connect to Network
+## Steps
+## 1. Check NIC Settings:
+- I verified NIC configuration on the VM.
+- Example screenshot: Sample Image (Label: Example)
 
-I verified NIC configuration on the VM.
-Example screenshot: Sample Image (Label: Example)
-Check DHCP Server Logs:
+## 2. Check DHCP Server Logs:
+- I ensured the DHCP server was assigning IP addresses correctly.
+- Example screenshot: Sample Image (Label: Example)
 
-I ensured the DHCP server was assigning IP addresses correctly.
-Example screenshot: Sample Image (Label: Example)
-Resolve IP Conflict:
+## 3. Resolve IP Conflict:
+- I identified and resolved any IP conflicts within the network.
+- Example screenshot: Sample Image (Label: Example)
 
-I identified and resolved any IP conflicts within the network.
-Example screenshot: Sample Image (Label: Example)
-Scenario 2: Slow Network Performance
-Steps
-Monitor Network with Wireshark:
+## Scenario 2: Slow Network Performance
+## Steps
+## 1. Monitor Network with Wireshark:
+- I captured and analyzed network traffic.
+- Example screenshot: Sample Image (Label: Example)
 
-I captured and analyzed network traffic.
-Example screenshot: Sample Image (Label: Example)
-Identify Bandwidth-Hogging Application:
+## 2. Identify Bandwidth-Hogging Application:
+- I pinpointed applications consuming excessive bandwidth.
+- Example screenshot: Sample Image (Label: Example)
 
-I pinpointed applications consuming excessive bandwidth.
-Example screenshot: Sample Image (Label: Example)
-Mitigate Performance Issue:
+## 3. Mitigate Performance Issue:
+- I took appropriate actions to mitigate the issue.
+- Example screenshot: Sample Image (Label: Example)
 
-I took appropriate actions to mitigate the issue.
-Example screenshot: Sample Image (Label: Example)
-Conclusion
+# Conclusion
 This home lab project demonstrates my ability to set up, configure, and manage an enterprise-like network environment. It highlights my skills in troubleshooting, network management, and cybersecurity practices. The detailed documentation and hands-on practice underscore my readiness to tackle real-world IT support challenges.
