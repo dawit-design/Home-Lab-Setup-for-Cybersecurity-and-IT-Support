@@ -116,7 +116,7 @@ Tools: Kali Linux, Metasploit, Nmap, Wireshark
 - Example screenshot: Sample Image (Label: Example)
   
 ## 2. Monitor Network Traffic:
-- Wireshark: I captured network traffic using Wireshark and analyzed for suspicious activities.
+- Wireshark: I captured network traffic using Wireshark and analyzed it for suspicious activities.
 - Example screenshot: Sample Image (Label: Example)
 
 ## DNS Configuration
@@ -134,7 +134,7 @@ Tools: Kali Linux, Metasploit, Nmap, Wireshark
 ## Scenario 1: User Unable to Connect to Network
 ## Steps
 ## 1. Check NIC Settings:
-- I verified NIC configuration on the VM.
+- I verified the NIC configuration on the VM.
 - Example screenshot: Sample Image (Label: Example)
 
 ## 2. Check DHCP Server Logs:
@@ -151,7 +151,7 @@ Tools: Kali Linux, Metasploit, Nmap, Wireshark
 - I captured and analyzed network traffic.
 - Example screenshot: Sample Image (Label: Example)
 
-## 2. Identify Bandwidth-Hogging Application:
+## 2. Identify Bandwidth-Hogging Applications:
 - I pinpointed applications consuming excessive bandwidth.
 - Example screenshot: Sample Image (Label: Example)
 
