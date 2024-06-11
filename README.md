@@ -65,9 +65,9 @@ To simulate an enterprise network environment to demonstrate my IT support and c
    ![Internal Netowrk Adapter](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/352f5421-3b67-4812-be32-0d6659a607dd)
 
 ## 2. Configure DHCP Server on Windows Server 2019:
-- I installed the DHCP role via Server Manager.
-- Created a new scope with IP range: 172.16.0.100-172.16.0.200.
-- Example screenshot:
+   - I installed the DHCP role via Server Manager.
+   - Created a new scope with IP range: 172.16.0.100-172.16.0.200.
+   - Example screenshot:
   ![DHCP Config](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/94ed71d5-5085-4fa7-a379-f1a58f6a79ef)
   ![DHCP Config done](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/9bf6baf0-a0af-44b7-a750-ef92d304c463)
   ![Setting A scope](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/ce02cc2d-3677-41cf-a6c5-288aaf6815aa)
@@ -75,7 +75,7 @@ To simulate an enterprise network environment to demonstrate my IT support and c
 
 # 3. Server and Client Management
 ## Operating Systems
-- Windows Server 2019: Used for Active Directory Domain Services (AD DS).
+      - Windows Server 2019: Used for Active Directory Domain Services (AD DS).
 - Windows 10: Client/User machines for testing.
 ## Configuration Steps
 ## 1. Installed Windows Server:
@@ -141,51 +141,51 @@ Tools: Kali Linux, Metasploit, Nmap, Wireshark
 
 ## Steps
 ## 1. Conduct Vulnerability Assessments:
-- Tools:
+   - Tools:
    - Nmap: Network scanning.
    - Metasploit: Exploitation framework.
    - Wireshark: Network traffic analysis.
 ## Using the Tools
-- Nmap: Ran basic scans (nmap -sP 192.168.1.0/24) to discover devices.
+   - Nmap: Ran basic scans (nmap -sP 192.168.1.0/24) to discover devices.
    - Example screenshot: Sample Image (Label: Example)
-- Metasploit: Performed a basic exploit (e.g., MS08-067).
+   - Metasploit: Performed a basic exploit (e.g., MS08-067).
    - Example screenshot: Sample Image (Label: Example)
-- Wireshark: Captured and analyzed traffic.
+   - Wireshark: Captured and analyzed traffic.
    - Example screenshot: Sample Image (Label: Example)
 
 ## DNS Configuration
 ## Steps
 ## 1. Set Up DNS on Windows Server:
-- I installed the DNS role via Server Manager on the Windows Server 2019 VM.
--Configured DNS to resolve internal domain names securely.
--Example screenshot: Sample Image (Label: Example)
+   - I installed the DNS role via Server Manager on the Windows Server 2019 VM.
+   - Configured DNS to resolve internal domain names securely.
+   - Example screenshot: Sample Image (Label: Example)
 
 ## 2. Implement Secure DNS Settings:
-- I applied secure DNS settings to prevent spoofing attacks.
-- Example screenshot: Sample Image (Label: Example)
+   - I applied secure DNS settings to prevent spoofing attacks.
+   - Example screenshot: Sample Image (Label: Example)
   
 #6. Troubleshooting Scenarios
 ## Scenario 1: User Unable to Connect to Network
 ## Steps
 ## 1. Check NIC Settings:
-- Checked NIC settings and ensured proper configuration.
-- Verified IP settings using ipconfig /all.
-- Example screenshot: Sample Image (Label: Example)
+   - Checked NIC settings and ensured proper configuration.
+   - Verified IP settings using ipconfig /all.
+   - Example screenshot: Sample Image (Label: Example)
 
 ## 2. Check DHCP Server Logs:
-- I ensured the DHCP server was assigning IP addresses correctly.
-- Example screenshot: Sample Image (Label: Example)
+   - I ensured the DHCP server was assigning IP addresses correctly.
+   - Example screenshot: Sample Image (Label: Example)
 
 ## 3. Resolve IP Conflict:
-- I identified and resolved any IP conflicts within the network.
-- Example screenshot: Sample Image (Label: Example)
+   - I identified and resolved any IP conflicts within the network.
+   - Example screenshot: Sample Image (Label: Example)
 
 ## Scenario 2: Slow Network Performance
 ## Steps
 ## 1. Monitor Network with Wireshark:
-- Used Task Manager and Resource Monitor to check for high network usage.
-- Analyzed network traffic with Wireshark.
-- Example screenshot: Sample Image (Label: Example)
+   - Used Task Manager and Resource Monitor to check for high network usage.
+   - Analyzed network traffic with Wireshark.
+   - Example screenshot: Sample Image (Label: Example)
 
 # Conclusion
 This home lab project demonstrates my ability to set up, configure, and manage an enterprise-like network environment. It highlights my skills in troubleshooting, network management, and cybersecurity practices. The detailed documentation and hands-on practice underscore my readiness to tackle real-world IT support challenges.
