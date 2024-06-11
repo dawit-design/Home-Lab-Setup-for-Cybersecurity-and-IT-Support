@@ -10,6 +10,7 @@ To simulate an enterprise network environment to demonstrate my IT support and c
 5. Cybersecurity Practices
 6. 7Troubleshooting Scenarios
 7. Conclusion
+   
 # 1. Virtualization Setup
 ## Tools
 - VMware Workstation (or VirtualBox)
@@ -17,42 +18,43 @@ To simulate an enterprise network environment to demonstrate my IT support and c
 - Windows Server 2019
 - Windows 10
 - Configuration
+  
 Each VM is configured with:
-
 - RAM: 2GB
 - CPUs: 2
 - Hard Drive: 20GB
+  
 ## Steps
 ## 1. Install VMware Workstation:
-
 - I downloaded and installed VMware Workstation from the official website.
 - Example screenshot: Sample Image (Label: Example)
+  
 ## 2. Create Virtual Machines:
-
 - I opened VMware Workstation.
 - Clicked on "Create a New Virtual Machine".
 - Followed the wizard to install the operating systems.
 - Example screenshot: Sample Image (Label: Example)
+  
 ## 3. Configure Virtual Machines:
-
 - I allocated 2GB RAM and 2 CPUs for each VM.
 - Set the hard drive size to 20GB.
 - Example screenshot: Sample Image (Label: Example)
+  
 # 2. Network Configuration
 ## NIC Setup
 - NIC 1: Internal network communication
 - NIC 2: Internet access
 ## Steps
 ## 1. Assign NICs to VMs:
-
 - I went to the VM settings.
 - Added two network adapters: one for internal and one for internet access.
 - Example screenshot: Sample Image (Label: Example)
+  
 ## 2. Configure DHCP Server on Windows Server 2019:
-
 - I installed the DHCP role via Server Manager.
 - Created a new scope with IP range: 172.16.0.100-172.16.0.200.
 - Example screenshot: Sample Image (Label: Example)
+  
 # 3. Server and Client Management
 ## Operating Systems
 - Windows Server 2019 with Active Directory Domain Services (AD DS)
