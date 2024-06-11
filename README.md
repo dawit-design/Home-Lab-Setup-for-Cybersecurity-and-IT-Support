@@ -22,49 +22,47 @@ To simulate an enterprise network environment to demonstrate my IT support and c
 # 1. Virtualization Setup
 ## Tools
 - VirtualBox: [Download here](https://www.virtualbox.org/wiki/Downloads)
+- VirtualBox Extension Pack: [Download here](https://www.virtualbox.org/wiki/Downloads)
 ## Virtual Machines
 - Windows Server 2019
 - Windows 10
   
 ## Configuration
-Each VM is configured with:
-- RAM: 2GB
-- CPUs: 2
-- Hard Drive: 20GB
-  
-## Steps
-## 1. Install VirtualBox Workstation:
-- I downloaded and installed VirtualBox Workstation from the official website.
-- Example screenshot:
-  ![VM VirtualBox Installation](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/2015d127-d640-4c6e-ad74-172252c25cdf)
+## 1. Installed VirtualBox Workstation:
+   - Installed VirtualBox and Extension Pack.
+   - I followed the installation instructions for both VirtualBox and the Extension Pack.
+   - Example screenshot:
+     ![VM VirtualBox Installation](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/2015d127-d640-4c6e-ad74-172252c25cdf)
 
-## 2. Create Virtual Machines:
-- I opened VMware Workstation.
-- Clicked on "Create a New Virtual Machine".
-- Followed the wizard to install the Windows Server 2019.
-- Example screenshot:
-  ![Windows server installation done](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/3f308de0-b8d8-474f-8210-da9ecac3e86d)
-  ![Windows Server Installation2](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/8c9d9c12-81e7-46fb-a948-7a37622ec755)
-  ![Windows Server Installation3](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/1de7f303-c2d2-4c67-8614-8a4a2b6b4988)
-
-## 3. Configure Virtual Machines:
-- I allocated 2GB RAM and 2 CPUs for each VM.
-- Example screenshot:
-  ![Assign 2gb RAM and 2CPUs for Windows Server VM](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/f48d38e4-9338-4bec-9466-af5164d681a2)
-- Set the hard drive size to 20GB.
-- Example screenshot:
+## 2. Creating Virtual Machines:
+## Steps:
+   1. Opened VirtualBox and click 'New'.
+      - Named my VM (e.g., Domain Controller(DC), selected the type (Microsoft Windows), and version (Other (64-bit)).
+      - Example screenshot:
+      ![Create a Windows Server VM](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/9f196fe5-627f-4f54-9094-db9e1ed393a3)
+     ![Windows server installation done](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/3f308de0-b8d8-474f-8210-da9ecac3e86d)
+     ![Windows Server Installation2](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/8c9d9c12-81e7-46fb-a948-7a37622ec755)
+     ![Windows Server Installation3](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/1de7f303-c2d2-4c67-8614-8a4a2b6b4988)
+   2. Allocated resources.
+      - Assigned at least 2 GB RAM, 2 CPUs, and 20 GB of disk space.
+      - Example screenshot:
+     ![Assign 2gb RAM and 2CPUs for Windows Server VM](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/f48d38e4-9338-4bec-9466-af5164d681a2)
+      - Example screenshot:
   ![20GB hard disk assigned](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/2ec9e85c-2a11-4250-8b9a-a4d98e3e39ee)
+   3. Configured the network.
+      - Used NAT Adapter for external network access and Internal Network for internal communication.
 
 # 2. Network Configuration
 ## NIC Setup
-- NIC 1: Internal network communication
-- NIC 2: Internet access
-## Steps
+   1. NAT.
+      - This provides internet access to the VMs.
+   2. Internal Network Adapter.
+      - Used for communication between VMs.
+## Configuration Steps
 ## 1. Assign NICs to VMs:
-- I went to the VM settings.
-- Added two network adapters: one for internal and one for internet access.
-- Example screenshot:
-  ![Internal Netowrk Adapter](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/352f5421-3b67-4812-be32-0d6659a607dd)
+   - I went to Settings > Network in VirtualBox and set Adapter 1 to NAT and Adapter 2 to Internal Network.
+   - Example screenshot:
+   ![Internal Netowrk Adapter](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/352f5421-3b67-4812-be32-0d6659a607dd)
 
 ## 2. Configure DHCP Server on Windows Server 2019:
 - I installed the DHCP role via Server Manager.
@@ -77,11 +75,13 @@ Each VM is configured with:
 
 # 3. Server and Client Management
 ## Operating Systems
-- Windows Server 2019 with Active Directory Domain Services (AD DS)
-- Windows 10 for end-user testing
-## Steps
-## 1. Deploy Operating Systems:
-   - I installed Windows Server 2019 on one VM and Windows 10 on the other.
+- Windows Server 2019: Used for Active Directory Domain Services (AD DS).
+- Windows 10: Client/User machines for testing.
+## Configuration Steps
+## 1. Installed Windows Server:
+   - I followed the installation prompts, configured basic settings, and set a static IP for the Internal NIC.
+## 2. Installed Winodws 10
+   - Set up two Windows 10 VMs as client machines.
    - Example screenshot:
      ![Windows 10 Installation](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/dece6e31-3be7-471a-b25d-9cd3bc61f9a1)
      ![Windows 10 install1](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/53572e28-dee9-41ce-a02d-54389ba85ed8)
@@ -90,14 +90,12 @@ Each VM is configured with:
   
 ## 2. Set Up Active Directory on Windows Server:
 ## - Install AD DS Role:
-   - I opened Server Manager on the Windows Server 2019 VM.
-   - Clicked on "Add roles and features".
-   - Selected "Active Directory Domain Services" and proceeded with the installation.
+   - I opened 'Server Manager', and added 'Active Directory Domain Services'.
+   - Clicked on "Add roles and features" and proceeded with the installation.
    - Example screenshot:
      ![AD Installation2](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/e0ca0d6b-d1a6-4c24-bd58-561140c63e0a)
-
 ## - Promote Server to Domain Controller:
-   - After installing AD DS, a notification appeared to promote the server to a domain controller.
+   - Set DNS to the server’s internal IP and joined the domain via System Properties.
    - I followed the wizard to create a new forest with the domain name highfive.com.
    - Completed the promotion process and restarted the server.
    - Example screenshot:
@@ -122,8 +120,7 @@ Each VM is configured with:
 ## RAS and NAT Configuration 
 ## Steps
    ## 1. Enable Routing and Remote Access Service (RAS):
-   - I opened Server Manager on the Windows Server 2019 VM.
-   - Added the RAS role and configured it for NAT.
+   - I opened Server Manager, added a Remote Access role (RAS), and configured NAT.
    - Example screenshot:
      ![Install RAS ](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/b77b7e7c-2d19-483c-be6f-df3a3d4be893)
      ![Install RAS2](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/fddb15d7-f174-424e-bbb5-cad62307dae9)
@@ -144,14 +141,17 @@ Tools: Kali Linux, Metasploit, Nmap, Wireshark
 
 ## Steps
 ## 1. Conduct Vulnerability Assessments:
-- Nmap: I used Nmap on the Kali Linux VM to scan the network for open ports.
-- Example screenshot: Sample Image (Label: Example)
-- Metasploit: I performed penetration testing using Metasploit to exploit vulnerabilities.
-- Example screenshot: Sample Image (Label: Example)
-  
-## 2. Monitor Network Traffic:
-- Wireshark: I captured network traffic using Wireshark and analyzed it for suspicious activities.
-- Example screenshot: Sample Image (Label: Example)
+- Tools:
+   - Nmap: Network scanning.
+   - Metasploit: Exploitation framework.
+   - Wireshark: Network traffic analysis.
+## Using the Tools
+- Nmap: Ran basic scans (nmap -sP 192.168.1.0/24) to discover devices.
+   - Example screenshot: Sample Image (Label: Example)
+- Metasploit: Performed a basic exploit (e.g., MS08-067).
+   - Example screenshot: Sample Image (Label: Example)
+- Wireshark: Captured and analyzed traffic.
+   - Example screenshot: Sample Image (Label: Example)
 
 ## DNS Configuration
 ## Steps
@@ -168,7 +168,8 @@ Tools: Kali Linux, Metasploit, Nmap, Wireshark
 ## Scenario 1: User Unable to Connect to Network
 ## Steps
 ## 1. Check NIC Settings:
-- I verified the NIC configuration on the VM.
+- Checked NIC settings and ensured proper configuration.
+- Verified IP settings using ipconfig /all.
 - Example screenshot: Sample Image (Label: Example)
 
 ## 2. Check DHCP Server Logs:
@@ -182,15 +183,8 @@ Tools: Kali Linux, Metasploit, Nmap, Wireshark
 ## Scenario 2: Slow Network Performance
 ## Steps
 ## 1. Monitor Network with Wireshark:
-- I captured and analyzed network traffic.
-- Example screenshot: Sample Image (Label: Example)
-
-## 2. Identify Bandwidth-Hogging Applications:
-- I pinpointed applications consuming excessive bandwidth.
-- Example screenshot: Sample Image (Label: Example)
-
-## 3. Mitigate Performance Issue:
-- I took appropriate actions to mitigate the issue.
+- Used Task Manager and Resource Monitor to check for high network usage.
+- Analyzed network traffic with Wireshark.
 - Example screenshot: Sample Image (Label: Example)
 
 # Conclusion
