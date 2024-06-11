@@ -56,7 +56,7 @@ Each VM is configured with:
 ## 2. Configure DHCP Server on Windows Server 2019:
 - I installed the DHCP role via Server Manager.
 - Created a new scope with IP range: 172.16.0.100-172.16.0.200.
-- Example screenshot: ![DHCP Config](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/94ed71d5-5085-4fa7-a379-f1a58f6a79ef)
+- ![DHCP Config](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/94ed71d5-5085-4fa7-a379-f1a58f6a79ef)
 - ![DHCP Config done](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/9bf6baf0-a0af-44b7-a750-ef92d304c463)
 - ![Setting A scope](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/ce02cc2d-3677-41cf-a6c5-288aaf6815aa)
 
