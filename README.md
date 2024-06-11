@@ -63,25 +63,24 @@ To simulate an enterprise network environment to demonstrate my IT support and c
    - I went to Settings > Network in VirtualBox and set Adapter 1 to NAT and Adapter 2 to Internal Network.
    - Example screenshot:
    ![Internal Netowrk Adapter](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/352f5421-3b67-4812-be32-0d6659a607dd)
-
 ## 2. Configure DHCP Server on Windows Server 2019:
    - I installed the DHCP role via Server Manager.
-   - Created a new scope with IP range: 172.16.0.100-172.16.0.200.
    - Example screenshot:
    ![DHCP Config](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/94ed71d5-5085-4fa7-a379-f1a58f6a79ef)
-   - Example screenshot:
    ![DHCP Config done](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/9bf6baf0-a0af-44b7-a750-ef92d304c463)
+   - Created a new scope with IP range: 172.16.0.100-172.16.0.200.
+   - Example screenshot:
    ![Setting A scope](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/ce02cc2d-3677-41cf-a6c5-288aaf6815aa)
 
 
 # 3. Server and Client Management
 ## Operating Systems
-      - Windows Server 2019: Used for Active Directory Domain Services (AD DS).
-- Windows 10: Client/User machines for testing.
+   - Windows Server 2019: Used for Active Directory Domain Services (AD DS).
+   - Windows 10: Client/User machines for testing.
 ## Configuration Steps
 ## 1. Installed Windows Server:
    - I followed the installation prompts, configured basic settings, and set a static IP for the Internal NIC.
-## 2. Installed Winodws 10
+## 2. Installed Windows 10
    - Set up two Windows 10 VMs as client machines.
    - Example screenshot:
      ![Windows 10 Installation](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/dece6e31-3be7-471a-b25d-9cd3bc61f9a1)
