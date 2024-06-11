@@ -27,7 +27,8 @@ Each VM is configured with:
 ## Steps
 ## 1. Install VMware Workstation:
 - I downloaded and installed VirtualBox Workstation from the official website.
-- Example screenshot: Sample Image (Label: Example)
+- Example screenshot: ![VM VirtualBox Installation](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/2015d127-d640-4c6e-ad74-172252c25cdf)
+
   
 ## 2. Create Virtual Machines:
 - I opened VMware Workstation.
