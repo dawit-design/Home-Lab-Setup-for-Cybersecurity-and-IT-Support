@@ -29,20 +29,20 @@ Each VM is configured with:
 - I downloaded and installed VirtualBox Workstation from the official website.
 - Example screenshot: ![VM VirtualBox Installation](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/2015d127-d640-4c6e-ad74-172252c25cdf)
 
-  
 ## 2. Create Virtual Machines:
 - I opened VMware Workstation.
 - Clicked on "Create a New Virtual Machine".
-- Followed the wizard to install the operating systems.
-- Example screenshot: Sample Image (Label: Example)
-  
+- Followed the wizard to install the Windows Server 2019.
+- Example screenshot: ![Windows server installation done](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/3f308de0-b8d8-474f-8210-da9ecac3e86d)
+- ![Windows Server Installation2](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/8c9d9c12-81e7-46fb-a948-7a37622ec755)
+- ![Windows Server Installation3](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/1de7f303-c2d2-4c67-8614-8a4a2b6b4988)
+
 ## 3. Configure Virtual Machines:
 - I allocated 2GB RAM and 2 CPUs for each VM.
 - Example screenshot: ![Assign 2gb RAM and 2CPUs for Windows Server VM](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/f48d38e4-9338-4bec-9466-af5164d681a2)
 - Set the hard drive size to 20GB.
 - Example screenshot: ![20GB hard disk assigned](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/2ec9e85c-2a11-4250-8b9a-a4d98e3e39ee)
 
-  
 # 2. Network Configuration
 ## NIC Setup
 - NIC 1: Internal network communication
@@ -53,7 +53,6 @@ Each VM is configured with:
 - Added two network adapters: one for internal and one for internet access.
 - Example screenshot: ![Internal Netowrk Adapter](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/352f5421-3b67-4812-be32-0d6659a607dd)
 
-  
 ## 2. Configure DHCP Server on Windows Server 2019:
 - I installed the DHCP role via Server Manager.
 - Created a new scope with IP range: 172.16.0.100-172.16.0.200.
@@ -62,7 +61,6 @@ Each VM is configured with:
 - ![Setting A scope](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/ce02cc2d-3677-41cf-a6c5-288aaf6815aa)
 
 
-  
 # 3. Server and Client Management
 ## Operating Systems
 - Windows Server 2019 with Active Directory Domain Services (AD DS)
@@ -72,7 +70,7 @@ Each VM is configured with:
    - I installed Windows Server 2019 on one VM and Windows 10 on the other.
    - Example screenshot: ![Windows 10 Installation](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/dece6e31-3be7-471a-b25d-9cd3bc61f9a1)
    - ![Windows 10 install1](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/53572e28-dee9-41ce-a02d-54389ba85ed8)
-    - ![Windows 10 install2](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/1d9e540c-7472-4fc3-a10c-46fc057bc226)
+   - ![Windows 10 install2](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/1d9e540c-7472-4fc3-a10c-46fc057bc226)
 
   
 ## 2. Set Up Active Directory on Windows Server:
