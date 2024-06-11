@@ -38,8 +38,10 @@ Each VM is configured with:
   
 ## 3. Configure Virtual Machines:
 - I allocated 2GB RAM and 2 CPUs for each VM.
+- Example screenshot: ![Assign 2gb RAM and 2CPUs for Windows Server VM](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/f48d38e4-9338-4bec-9466-af5164d681a2)
 - Set the hard drive size to 20GB.
-- Example screenshot: Sample Image (Label: Example)
+- Example screenshot: ![20GB hard disk assigned](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/2ec9e85c-2a11-4250-8b9a-a4d98e3e39ee)
+
   
 # 2. Network Configuration
 ## NIC Setup
