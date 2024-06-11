@@ -17,8 +17,8 @@ To simulate an enterprise network environment to demonstrate my IT support and c
 ## Virtual Machines
 - Windows Server 2019
 - Windows 10
-- Configuration
   
+## Configuration
 Each VM is configured with:
 - RAM: 2GB
 - CPUs: 2
@@ -109,16 +109,13 @@ Each VM is configured with:
    - Example screenshot: ![Install RAS ](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/b77b7e7c-2d19-483c-be6f-df3a3d4be893)
    - ![Install RAS2](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/fddb15d7-f174-424e-bbb5-cad62307dae9)
 
-     
   ##2. Configure NAT:
   - I set up NAT to allow internal VMs to access the internet.
   - Example screenshot: ![NAT INSTALLATION](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/2f3331f1-ccfb-4004-8cbe-42e11779aec5)
 
-
   ##3. Define DHCP Scope:
   - I ensured the DHCP scope was defined with the IP range 172.16.0.100-200.
   - Example screenshot: ![Setting A scope](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/e4976514-cf68-4ced-8a72-0fa2ce16a5f9)
-
     
 # 5. Cybersecurity Practices
 ## Vulnerability Assessments
