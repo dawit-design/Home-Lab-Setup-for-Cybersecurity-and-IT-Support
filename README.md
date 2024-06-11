@@ -10,10 +10,18 @@ To simulate an enterprise network environment to demonstrate my IT support and c
 5. Cybersecurity Practices
 6. 7Troubleshooting Scenarios
 7. Conclusion
-   
+
+# Prerequisites
+- Hardware: A computer with at least 16 GB of RAM and 500 GB of free disk space.
+- Software:
+   - VirtualBox
+   - VirtualBox Extension Pack
+   - Windows Server ISO
+   - Windows 10 ISO
+
 # 1. Virtualization Setup
 ## Tools
-- VirtualBox
+- VirtualBox: [Download here](https://www.virtualbox.org/wiki/Downloads)
 ## Virtual Machines
 - Windows Server 2019
 - Windows 10
@@ -25,7 +33,7 @@ Each VM is configured with:
 - Hard Drive: 20GB
   
 ## Steps
-## 1. Install VMware Workstation:
+## 1. Install VirtualBox Workstation:
 - I downloaded and installed VirtualBox Workstation from the official website.
 - Example screenshot:
   ![VM VirtualBox Installation](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/2015d127-d640-4c6e-ad74-172252c25cdf)
