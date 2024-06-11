@@ -13,7 +13,7 @@ To simulate an enterprise network environment to demonstrate my IT support and c
    
 # 1. Virtualization Setup
 ## Tools
-- VMware Workstation (or VirtualBox)
+- VirtualBox
 ## Virtual Machines
 - Windows Server 2019
 - Windows 10
@@ -26,7 +26,7 @@ Each VM is configured with:
   
 ## Steps
 ## 1. Install VMware Workstation:
-- I downloaded and installed VMware Workstation from the official website.
+- I downloaded and installed VirtualBox Workstation from the official website.
 - Example screenshot: Sample Image (Label: Example)
   
 ## 2. Create Virtual Machines:
