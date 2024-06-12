@@ -36,7 +36,7 @@ To simulate an enterprise network environment to demonstrate my IT support and c
 ## 2. Creating Virtual Machines:
 ## Steps:
    1. Opened VirtualBox and click 'New'.
-      - Named my VM (e.g., Domain Controller(DC), selected the type (Microsoft Windows), and version (Other (64-bit)).
+      - Named my VM (e.g., Domain Controller(DC), selected the type (Microsoft Windows), and version (Other Windows(64-bit)).
       ![Create a Windows Server VM](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/9f196fe5-627f-4f54-9094-db9e1ed393a3)
      ![Windows server installation done](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/3f308de0-b8d8-474f-8210-da9ecac3e86d)
      ![Windows Server Installation2](https://github.com/dawit-design/Home-Lab-Setup-for-Cybersecurity-and-IT-Support/assets/71353146/8c9d9c12-81e7-46fb-a948-7a37622ec755)
