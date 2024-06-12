@@ -150,7 +150,7 @@ Tools: Kali Linux, Metasploit, Nmap, Wireshark
    - I applied secure DNS settings to prevent spoofing attacks.
    - Example screenshot: Sample Image (Label: Example)
   
-#6. Troubleshooting Scenarios
+# 6. Troubleshooting Scenarios
 ## Scenario 1: User Unable to Connect to Network
 ## Steps
 ## 1. Check NIC Settings:
